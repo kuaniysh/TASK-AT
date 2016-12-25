@@ -6,7 +6,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created by Kuanysh Bekturganov
  * This class annotation gives an opportunity to read properties,
  * marked by {@link com.selenium.test.configuration.properties.Property} annotation, from property file.
  * Insert .property file name from resources to value field of annotation and after than all
