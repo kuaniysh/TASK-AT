@@ -12,7 +12,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by Kuanysh Bekturganov
  * Uses JUnit test framework
  */
 public class PageObjectTest {
