@@ -10,7 +10,6 @@ import java.lang.reflect.Field;
 import java.util.Properties;
 
 /**
- * Created by Kuanysh Bekturganov
  * Class for loading base tests properties. It gets properties - system or from file (by specified names) and sets it to fields of TestConfig object
  */
 public class PropertiesLoader {
