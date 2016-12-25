@@ -13,7 +13,6 @@ import org.testng.annotations.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by Kuanysh Bekturganov
  * Uses TestNG test framework
  * Test demonstrates simple webdriver functions : how to start browser, open url, insert some text and check that this text was inserted
  */
