@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by Kuanysh Bekturganov
  * Uses TestNG test framework
  */
 @Listeners({ScreenShotOnFailListener.class})
