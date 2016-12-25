@@ -3,7 +3,6 @@ package com.selenium.test.webtestsbase;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
- * Created by Kuanysh Bekturganov
  * Class presents functionality for generation of {@link org.openqa.selenium.remote.DesiredCapabilities} object
  * need for some browsers start
  */
