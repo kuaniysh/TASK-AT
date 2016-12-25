@@ -1,7 +1,6 @@
 package com.selenium.test.utils;
 
 /**
- * Created by Kuanysh Bekturganov
  * Operations with time
  */
 public class TimeUtils {
