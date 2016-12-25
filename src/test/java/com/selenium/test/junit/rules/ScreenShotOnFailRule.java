@@ -6,7 +6,6 @@ import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
 /**
- * Created by Kuanysh Bekturganov
  * This class represent rule - junit mechanism for adding awesome functionality in test running process.
  * This rule adds screenshot taking when test  fails
  */
