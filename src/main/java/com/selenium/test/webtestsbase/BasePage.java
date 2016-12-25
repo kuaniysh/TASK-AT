@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * Created by Kuanysh Bekturganov
  * This is the main class for pages. When you create your page - you must extend your class from this
  */
 public abstract class BasePage {
