@@ -4,7 +4,6 @@ import com.selenium.test.webtestsbase.WebDriverFactory;
 import org.testng.*;
 
 /**
- * Created by Kuanysh Bekturganov
  * This listener adds screenshot taking on test failure
  */
 public class ScreenShotOnFailListener implements ITestListener {
