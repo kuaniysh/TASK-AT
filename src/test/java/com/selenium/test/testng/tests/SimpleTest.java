@@ -24,18 +24,6 @@ public class SimpleTest {
         WebDriverFactory.startBrowser(true);
     }
 
-
-    @Test
-    public void testYoutube() {
-        String toSearch = "Selenium";
-        WebDriverFactory.getDriver().get("http://www.youtube.com");
-        WebElement searchString = WebDriverFactory.getDriver().findElement(By.cssSelector("#masthead-search-term"));
-        searchString.sendKeys(toSearch);
-        String searchStringText = searchString.getAttribute("value");
-        assertTrue("Text from page(" + searchStringText + ") not equals to text from test(" + toSearch + ")",
-                searchStringText.equals(toSearch));
-    }
-
     @Test
     public void testGoogleTitle()
     {
@@ -67,6 +55,17 @@ public class SimpleTest {
         WebDriverFactory.getDriver().findElement(By.name("q")).sendKeys("Maven Repository");
         System.out.println("Updating my project");
 
+    }
+    
+    @Test
+    public void testYoutube() {
+        String toSearch = "Selenium";
+        WebDriverFactory.getDriver().get("http://www.youtube.com");
+        WebElement searchString = WebDriverFactory.getDriver().findElement(By.cssSelector("#masthead-search-term"));
+        searchString.sendKeys(toSearch);
+        String searchStringText = searchString.getAttribute("value");
+        assertTrue("Text from page(" + searchStringText + ") not equals to text from test(" + toSearch + ")",
+                searchStringText.equals(toSearch));
     }
 
     @AfterTest
