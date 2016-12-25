@@ -13,7 +13,6 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Kuanysh Bekturganov
  * Base class for web tests. It contains web driver {@link org.openqa.selenium.WebDriver} instance, used in all tests.
  * All communications with driver should be done through this class
  */
