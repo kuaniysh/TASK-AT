@@ -6,7 +6,6 @@ import com.selenium.test.configuration.properties.PropertyFile;
 import com.selenium.test.webtestsbase.Browser;
 
 /**
- * Created by Kuanysh Bekturganov
  * Class for base tests properties - urls for test, browser name and version
  */
 @PropertyFile("config.properties")
